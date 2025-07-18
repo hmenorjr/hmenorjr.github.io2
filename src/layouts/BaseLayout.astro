@@ -13,7 +13,7 @@ const { title, description, pubDate, updatedDate, image } = Astro.props;
 <html lang="en" class="h-full">
 	<head>
 		<BaseHead
-			title={title ? `${title} | ${SITE_TITLE}` : SITE_TITLE}
+			title={title ? `${SITE_TITLE} | ${title}` : SITE_TITLE}
 			description={description || SITE_DESCRIPTION}
 			image={image}
 		/>
