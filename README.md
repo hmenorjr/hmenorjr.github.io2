@@ -1,26 +1,20 @@
-# So Basic - Astro Blog Template
+# HMenorJr - Blog Site
 
-Howdy! Before you read anything below, you can check out the ✨ [Live Demo](https://sobasic.netlify.app/) ✨
+This is my new blog site built with Astro
 
-[![Screenshot](screenshot.png)](https://sobasic.netlify.app/)
+## Template from - So Basic
 
+### 📦 Installation
 
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/lukeska/sobasic)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/lukeska/sobasic)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/lukeska/sobasic?devcontainer_path=.devcontainer/devcontainer.json)
-
-## 📦 Installation
-
-### Astro installation
+#### Astro installation
 
 ```sh
 npm create astro@latest -- --template lukeska/sobasic
 ```
 
-### Manual installation
+#### Manual installation
 
-#### 1. Clone the repo
+##### 1. Clone the repo
 ```sh
 git clone https://github.com/lukeska/sobasic.git my-project
 # or
@@ -28,16 +22,16 @@ git clone https://github.com/lukeska/sobasic.git .
 ```
 The . will clone it to the current directory so make sure you are inside your project folder first.
 
-#### 2. Install dependencies
+##### 2. Install dependencies
 ```sh
 npm install
 ```
 
-#### 3. Start the development server
+##### 3. Start the development server
 ```sh
 npm run dev
 ```
-## 🚀 Project Structure
+### 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
 
@@ -64,9 +58,9 @@ There's nothing special about `src/components/`, but that's where we like to put
 
 Any static assets, like images, can be placed in the `public/` directory.
 
-## 📰 Add your own content
+### 📰 Add your own content
 
-### Add or change existing pages
+#### Add or change existing pages
 
 Feel free to change any of the content on the existing files in folder `src/pages/`. In this folder you 
 can add any `.astro` file. Make sure to use `<BaseLayout> to ensure any new page looks like the rest of the site.
@@ -80,7 +74,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 </BaseLayout>
 ```
 
-### Add new articles to the blog
+#### Add new articles to the blog
 
 Articles for the blog can be added as `.md` or `.mdx` files inside `src/content/blog/`. Hero images for the articles can be added to `src/images/`
 
@@ -102,7 +96,7 @@ featured: true
 - heroImage is optional and references an image inside `src/images/`
 - featured is optional. Values can be `true` or `false`. It defines if an article is visible in the `FeaturedArticles.astro` component.
 
-### Change links in the main navigation
+#### Change links in the main navigation
 
 Links in the main navigation can be changed in `src/components/Header.astro` by altering this variable:
 
@@ -114,7 +108,7 @@ const navItems = [
 ];
 ```
 
-## 🎨 Customization
+### 🎨 Customization
 
 The primary color of this theme can be easily changed in `src/styles/global.css`.
 You can assign any Tailwind color to the various `color-primary-*` variables.
@@ -135,10 +129,3 @@ You can assign any Tailwind color to the various `color-primary-*` variables.
     ...
 }
 ```
-
-## 👀 Want to learn more?
-
-Feel free to check [Astro's documentation](https://github.com/withastro/astro) or jump into Astro's [Discord server](https://astro.build/chat).
-
-## Images credits
-Photos by <a href="https://unsplash.com/@josepmartins?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Josep Martins</a> on <a href="https://unsplash.com/photos/white-smoke-0-c5T6meRuk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
