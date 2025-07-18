@@ -3,7 +3,7 @@ title: 'Working with Werewolves: Managing Agile Teams Through the Full Moon Cycl
 description: 'Managing werewolves in agile teams? Learn how to plan sprints, avoid full moon burnout, and lead supernatural developers with empathy, humor, and lunar-aware scheduling.'
 pubDate: '2025-01-04'
 heroImage: '../../images/blog-placeholder-2.jpg'
-featured: true
+featured: false
 ---
 
 In the high-paced, blood-fueled world of supernatural startups, cross-species collaboration is the norm. Vampires, banshees, ghouls, and yes—werewolves—all come together to build amazing things. But if you’ve ever managed an agile sprint with a werewolf on your team, you know the lunar cycle can wreak havoc on your burndown chart.
