@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Projects from "../components/Projects.astro";
-import NewsletterForm from "../components/NewsletterForm.astro";
+// import Projects from "../components/Projects.astro";
+// import NewsletterForm from "../components/NewsletterForm.astro";
 import Timeline from "../components/Timeline.astro";
 import Social from "../components/Social.astro";
 import { Icon } from "astro-icon/components";
@@ -22,28 +22,30 @@ const description = "All about me";
 		<section class="max-w-2xl">
 			<div class="space-y-8 leading-8">
 				<p>
-					I started out as a Junior Web Developer, learning, writing unit tests, and deploying web applications using Java Enterprise. 
-					It was insightful work—until one project turned into sleepless nights and fatigue. Before I knew it, 
-					I had become a Full-stack Web Developer and Senior Software Engineer.
+					I started out as a Junior Web Developer, learning, writing
+					unit tests, and deploying web applications using Java
+					Enterprise. It was insightful work—until one project turned
+					into sleepless nights and fatigue. Before I knew it, I had
+					become a Full-stack Web Developer and Senior Software
+					Engineer.
 				</p>
 				<p>
-					Nowadays, I’m a Platform Manager (also known as a Platform Engineer or DevOps Engineer), 
-					in Åland Islands and Finland, working for a humble but innovative FinTech company. 
-					I handle everything from coding in Python 3 or JavaScript for performance testing to Operations Management and patching.
+					Nowadays, I’m a Platform Manager (also known as a Platform
+					Engineer or DevOps Engineer), in Åland Islands and Finland,
+					working for a humble but innovative FinTech company. I
+					handle everything from coding in Python 3 or JavaScript for
+					performance testing to Operations Management and patching.
 				</p>
 				<p>
-					This blog is where I share my thoughts on technology, life as a Platform Engineer 
-					and surviving Kanban sprints alongside other experts. If that sounds useful—or at least mildly chaotic — you're in the right place.
+					This blog is where I share my thoughts on technology, life
+					as a Platform Engineer and surviving Kanban sprints
+					alongside other experts. If that sounds useful—or at least
+					mildly chaotic — you're in the right place.
 				</p>
 			</div>
 
-			<div
-				class="sm:flex sm:items-center sm:justify-between space-y-4 sm:space-y-0 my-10"
-			>
-				<a
-					href="mailto:herman.menor+hmenorjr@gmail.com"
-					class="flex items-center space-x-1 hover:text-primary-500"
-				>
+			<div class="sm:flex sm:items-center sm:justify-between space-y-4 sm:space-y-0 my-10">
+				<a href="mailto:herman.menor+blogsite@gmail.com" class="flex items-center space-x-1 hover:text-primary-500">
 					<Icon name="heroicons:envelope" class="size-5" />
 					<span>Email Me</span>
 				</a>
@@ -54,9 +56,7 @@ const description = "All about me";
 		</section>
 
 		<section class="my-16 sm:my-30">
-			<h2
-				class="text-2xl sm:text-4xl font-bold tracking-tight mb-10 sm:mb-20"
-			>
+			<h2 class="text-2xl sm:text-4xl font-bold tracking-tight mb-10 sm:mb-20">
 				Career
 			</h2>
 
@@ -66,11 +66,9 @@ const description = "All about me";
 		</section>
 	</div>
 
-	<div class="my-16 sm:my-30">
+	<!-- <div class="my-16 sm:my-30">
 		<div class="mx-auto lg:max-w-4xl">
-			<h2
-				class="text-2xl sm:text-4xl font-bold tracking-tight mb-10 sm:mb-20"
-			>
+			<h2 class="text-2xl sm:text-4xl font-bold tracking-tight mb-10 sm:mb-20">
 				Projects
 			</h2>
 		</div>
@@ -78,9 +76,9 @@ const description = "All about me";
 		<div class="mx-auto lg:max-w-5xl">
 			<Projects />
 		</div>
-	</div>
+	</div> -->
 
-	<div class="mx-auto lg:max-w-4xl my-16 sm:my-30">
+	<!-- <div class="mx-auto lg:max-w-4xl my-16 sm:my-30">
 		<NewsletterForm />
-	</div>
+	</div> -->
 </BaseLayout>
